@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="登录成功欢迎页" />
+    <title>欢迎 · Cloudflare Demo</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/welcome.css" />
+  </head>
+  <body>
+    <main class="welcome-shell">
+      <section class="welcome-card">
+        <div class="success-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6" /></svg>
+        </div>
+        <p class="eyebrow">AUTHENTICATED</p>
+        <h1>欢迎，admin</h1>
+        <p class="welcome-copy">你已成功通过 Cloudflare Worker 后端验证。</p>
+        <div class="status-row">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>服务运行正常</span>
+          <span class="edge-label">EDGE</span>
+        </div>
+        <a class="logout-link" href="/">退出登录</a>
+      </section>
+    </main>
+  </body>
+</html>
